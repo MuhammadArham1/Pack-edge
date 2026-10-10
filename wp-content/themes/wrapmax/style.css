@@ -1,0 +1,24 @@
+/*
+Theme Name: Wrapmax
+Description: Wrapmax is a Custom Packaging & Branding Agency theme template for WordPress that supports full site editing and is fully compatible with the Gutenverse plugin. Wrapmax is perfect for Custom Packaging & Branding Companies, Packaging Suppliers, Packaging Solutions and any other businesses in the Manufacturing Industry. You can use the core version and the included Gutenverse to easily create the website you want. We want to make sure that you have the best experience using WordPress to edit your site.
+Author: Jegstudio
+Author URI: https://support.jegtheme.com/
+Theme URI: https://fse.jegtheme.com/wrapmax/
+Version: 1.0.0
+Stable tag: 1.0.0
+Requires at least: 6.2
+Tested up to: 6.6
+Requires PHP: 7.4
+License: GNU General Public License v3 or later.
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: wrapmax
+Tags: block-patterns,block-styles,custom-background,custom-menu,editor-style,full-site-editing,template-editing
+Copyright: © Jegstudio. All rights reserved.
+*/
+
+:root{
+    
+}
+.editor-styles-wrapper .block-editor-block-list__layout.is-root-container > .block-library-block__reusable-block-container {
+    max-width: 100%;
+}

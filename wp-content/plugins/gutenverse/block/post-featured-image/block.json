@@ -1,0 +1,429 @@
+{
+	"apiVersion": 3,
+	"name": "gutenverse/post-featured-image",
+	"class_callback": "\\Gutenverse\\Block\\Post_Featured_Image",
+	"title": "Post Featured Image",
+	"description": "Show the featured image of a single post.",
+	"category": "gutenverse-post",
+	"allowCopyStyle": true,
+	"attributes": {
+		"anchor": {
+			"type": "string"
+		},
+		"elementId": {
+			"type": "string"
+		},
+		"postId": {
+			"type": "string",
+			"default": 0
+		},
+		"backendPostId": {
+			"type": "string"
+		},
+		"noContentText": {
+			"type": "string",
+			"default": "No Content"
+		},
+		"postLink": {
+			"type": "boolean"
+		},
+		"placeholderImg": {
+			"type": "boolean",
+			"default": true
+		},
+		"linkTo": {
+			"type": "string",
+			"default": "none"
+		},
+		"customURL": {
+			"type": "string"
+		},
+		"alignment": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"size": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"opacity": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"rotate": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"imageSize": {
+			"type": "object",
+			"copyStyle": true,
+			"default": {
+				"label": "Full",
+				"value": "full"
+			}
+		},
+		"imageFit": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"imageRatio": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"imageRatioCustom": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"imagePosition": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"imageLazy": {
+			"type": "boolean",
+			"default": false,
+			"copyStyle": true
+		},
+		"imageLoad": {
+			"type": "string",
+			"default": ""
+		},
+		"imageBorder": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"imageBorderResponsive": {
+			"type": "object",
+			"migrate": {
+				"attr": "imageBorder",
+				"type": "border"
+			},
+			"copyStyle": true
+		},
+		"imageBoxShadow": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"background": {
+			"type": "object",
+			"default": {},
+			"copyStyle": true
+		},
+		"backgroundHover": {
+			"type": "object",
+			"default": {},
+			"copyStyle": true
+		},
+		"backgroundTransition": {
+			"type": "object",
+			"copyStyle": true,
+			"default": {}
+		},
+		"border": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"borderResponsive": {
+			"type": "object",
+			"migrate": {
+				"attr": "border",
+				"type": "border"
+			},
+			"copyStyle": true
+		},
+		"boxShadow": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"borderHover": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"borderHoverResponsive": {
+			"type": "object",
+			"migrate": {
+				"attr": "borderHover",
+				"type": "border"
+			},
+			"copyStyle": true
+		},
+		"boxShadowHover": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"margin": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"padding": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"zIndex": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"animation": {
+			"type": "object",
+			"default": {},
+			"copyStyle": true
+		},
+		"hideDesktop": {
+			"type": "boolean",
+			"copyStyle": true
+		},
+		"hideTablet": {
+			"type": "boolean",
+			"copyStyle": true
+		},
+		"hideMobile": {
+			"type": "boolean",
+			"copyStyle": true
+		},
+		"positioningType": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"positioningWidth": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"positioningAlign": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"positioningLocation": {
+			"type": "string",
+			"copyStyle": true
+		},
+		"positioningLeft": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"positioningRight": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"positioningTop": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"positioningBottom": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"transform": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"mask": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"condition": {
+			"type": "object",
+			"default": {}
+		},
+		"flexAlignSelf": {
+			"type": "object",
+			"default": {},
+			"copyStyle": true
+		},
+		"flexOrder": {
+			"type": "object",
+			"default": {},
+			"copyStyle": true
+		},
+		"flexCustomOrder": {
+			"type": "object",
+			"default": {},
+			"copyStyle": true
+		},
+		"flexSize": {
+			"type": "object",
+			"default": {},
+			"copyStyle": true
+		},
+		"flexSizeGrow": {
+			"type": "object",
+			"default": {},
+			"copyStyle": true
+		},
+		"flexSizeShrink": {
+			"type": "object",
+			"default": {},
+			"copyStyle": true
+		},
+		"galleryImageFit": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"galleryImageRatio": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"galleryOverride": {
+			"type": "boolean",
+			"default": false
+		},
+		"videoOverride": {
+			"type": "boolean",
+			"default": false
+		},
+		"videoRatio": {
+			"type": "string",
+			"copyStyle": true
+		},
+		"galleryHideNav": {
+			"type": "boolean"
+		},
+		"galleryNavAlwaysShow": {
+			"type": "boolean"
+		},
+		"galleryHideDots": {
+			"type": "boolean"
+		},
+		"galleryNextButtonIcon": {
+			"type": "string",
+			"default": "fas fa-chevron-right"
+		},
+		"galleryNextButtonIconType": {
+			"type": "string",
+			"default": "icon"
+		},
+		"galleryNextButtonIconSVG": {
+			"type": "string",
+			"default": "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgRnJlZSA2LjUuMSBieSBAZm9udGF3ZXNvbWUgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbSBMaWNlbnNlIC0gaHR0cHM6Ly9mb250YXdlc29tZS5jb20vbGljZW5zZS9mcmVlIChJY29uczogQ0MgQlkgNC4wLCBGb250czogU0lMIE9GTCAxLjEsIENvZGU6IE1JVCBMaWNlbnNlKSBDb3B5cmlnaHQgMjAyMyBGb250aWNvbnMsIEluYy4gLS0+PHBhdGggZD0iTTI3OC42IDIzMy40YzEyLjUgMTIuNSAxMi41IDMyLjggMCA0NS4zbC0xNjAgMTYwYy0xMi41IDEyLjUtMzIuOCAxMi41LTQ1LjMgMHMtMTIuNS0zMi44IDAtNDUuM0wyMTAuNyAyNTYgNzMuNCAxMTguNmMtMTIuNS0xMi41LTEyLjUtMzIuOCAwLTQ1LjNzMzIuOC0xMi41IDQ1LjMgMGwxNjAgMTYweiIvPjwvc3ZnPg=="
+		},
+		"galleryPrevButtonIcon": {
+			"type": "string",
+			"default": "fas fa-chevron-left"
+		},
+		"galleryPrevButtonIconType": {
+			"type": "string",
+			"default": "icon"
+		},
+		"galleryPrevButtonIconSVG": {
+			"type": "string",
+			"default": "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgRnJlZSA2LjUuMSBieSBAZm9udGF3ZXNvbWUgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbSBMaWNlbnNlIC0gaHR0cHM6Ly9mb250YXdlc29tZS5jb20vbGljZW5zZS9mcmVlIChJY29uczogQ0MgQlkgNC4wLCBGb250czogU0lMIE9GTCAxLjEsIENvZGU6IE1JVCBMaWNlbnNlKSBDb3B5cmlnaHQgMjAyMyBGb250aWNvbnMsIEluYy4gLS0+PHBhdGggZD0iTTQxLjQgMjMzLjRjLTEyLjUgMTIuNS0xMi41IDMyLjggMCA0NS4zbDE2MCAxNjBjMTIuNSAxMi41IDMyLjggMTIuNSA0NS4zIDBzMTIuNS0zMi44IDAtNDUuM0wxMDkuMyAyNTYgMjQ2LjYgMTE4LjZjMTIuNS0xMi41IDEyLjUtMzIuOCAwLTQ1LjNzLTMyLjgtMTIuNS00NS4zIDBsLTE2MCAxNjB6Ii8+PC9zdmc+"
+		},
+		"buttonHeight": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"galleryButtonIconSize": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"galleryButtonHeight": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"galleryButtonWidth": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"galleryButtonPosition": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"galleryButtonIconColor": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"galleryButtonIconColorHover": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"galleryButtonBgColor": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"galleryButtonBgColorHover": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"galleryButtonBorder": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"galleryButtonBorderHover": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"galleryDotGap": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"galleryDotNormalColor": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"galleryDotBorderNormalColor": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"galleryDotNormalSize": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"galleryDotHoverColor": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"galleryDotBorderHoverColor": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"galleryDotHoverSize": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"galleryDotActiveColor": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"galleryDotBorderActiveColor": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"galleryDotActiveSize": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"galleryButtonBoxShadow": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"galleryButtonBoxShadowHover": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"imageFixedHeight": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"imageHeight": {
+			"type": "object",
+			"copyStyle": true
+		}
+	},
+	"usesContext": [
+		"postId",
+		"postType",
+		"queryId",
+		"gutenverse/flexDirection"
+	],
+	"supports": {
+		"className": false,
+		"anchor": true
+	},
+	"keywords": [
+		"single",
+		"post",
+		"featured",
+		"image"
+	],
+	"style": [
+		"gutenverse-frontend-post-featured-image-style"
+	]
+}

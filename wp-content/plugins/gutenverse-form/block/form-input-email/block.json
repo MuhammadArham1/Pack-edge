@@ -1,0 +1,583 @@
+{
+	"apiVersion": 3,
+	"name": "gutenverse/form-input-email",
+	"class_callback": "\\Gutenverse_Form\\Block\\Form_Input_Email",
+	"title": "Email Input",
+	"description": "Gutenverse Input Email",
+	"category": "gutenverse-form",
+	"allowCopyStyle": true,
+	"styleGroup": "form-input-field",
+	"attributes": {
+		"elementId": {
+			"type": "string"
+		},
+		"mouseMoveEffect": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"showLabel": {
+			"type": "boolean",
+			"copyStyle": true,
+			"default": true
+		},
+		"showHelper": {
+			"type": "boolean",
+			"copyStyle": true,
+			"default": true
+		},
+		"inputHelper": {
+			"type": "string",
+			"default": "Input Helper"
+		},
+		"position": {
+			"type": "string",
+			"default": "top"
+		},
+		"labelWidth": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"labelColor": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"labelTypography": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"defaultLogic": {
+			"type": "string"
+		},
+		"displayLogic": {
+			"type": "array"
+		},
+		"labelPadding": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"labelMargin": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"helperColor": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"helperTypography": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"helperPadding": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"warningColor": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"warningTypography": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"positioningType": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"positioningWidth": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"positioningAlign": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"positioningLocation": {
+			"type": "string",
+			"copyStyle": true
+		},
+		"positioningLeft": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"positioningRight": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"positioningTop": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"positioningBottom": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"background": {
+			"type": "object",
+			"default": {},
+			"copyStyle": true
+		},
+		"backgroundHover": {
+			"type": "object",
+			"default": {},
+			"copyStyle": true
+		},
+		"backgroundTransition": {
+			"type": "object",
+			"copyStyle": true,
+			"default": {}
+		},
+		"border": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"borderResponsive": {
+			"type": "object",
+			"migrate": {
+				"attr": "border",
+				"type": "border"
+			},
+			"copyStyle": true
+		},
+		"boxShadow": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"borderHover": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"borderHoverResponsive": {
+			"type": "object",
+			"migrate": {
+				"attr": "borderHover",
+				"type": "border"
+			},
+			"copyStyle": true
+		},
+		"boxShadowHover": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"margin": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"padding": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"zIndex": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"animation": {
+			"type": "object",
+			"default": {},
+			"copyStyle": true
+		},
+		"hideDesktop": {
+			"type": "boolean",
+			"copyStyle": true
+		},
+		"hideTablet": {
+			"type": "boolean",
+			"copyStyle": true
+		},
+		"hideMobile": {
+			"type": "boolean",
+			"copyStyle": true
+		},
+		"inputLabel": {
+			"type": "string",
+			"default": "Email"
+		},
+		"inputPlaceholder": {
+			"type": "string",
+			"default": "Email Placeholder"
+		},
+		"inputName": {
+			"type": "string",
+			"default": "input-email"
+		},
+		"required": {
+			"type": "boolean",
+			"default": false
+		},
+		"validationType": {
+			"type": "string",
+			"default": "none"
+		},
+		"validationMin": {
+			"type": "number"
+		},
+		"validationMax": {
+			"type": "number"
+		},
+		"validationWarning": {
+			"type": "string",
+			"default": "Input Invalid"
+		},
+		"inputPadding": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"inputMargin": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"inputColor": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"textAlign": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"placeholderColor": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"inputTypography": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"inputColorNormal": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"inputBorderNormal": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"inputBorderNormalResponsive": {
+			"type": "object",
+			"migrate": {
+				"attr": "inputBorderNormal",
+				"type": "border"
+			},
+			"copyStyle": true
+		},
+		"inputColorHover": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"inputBorderHover": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"inputBorderHoverResponsive": {
+			"type": "object",
+			"migrate": {
+				"attr": "inputBorderHover",
+				"type": "border"
+			},
+			"copyStyle": true
+		},
+		"inputColorFocus": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"inputBorderFocus": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"inputBorderFocusResponsive": {
+			"type": "object",
+			"migrate": {
+				"attr": "inputBorderFocus",
+				"type": "border"
+			},
+			"copyStyle": true
+		},
+		"inputBgColorNormal": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"inputBgColorHover": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"inputBgColorFocus": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"labelRequireColor": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"transform": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"mask": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"inputAreaBoxShadow": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"inputAreaBoxShadowHover": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"condition": {
+			"type": "object",
+			"default": {}
+		},
+		"iconAlignment": {
+			"type": "string",
+			"default": "left"
+		},
+		"iconType": {
+			"type": "string",
+			"default": "icon"
+		},
+		"icon": {
+			"type": "string",
+			"default": "gtn gtn-email-light"
+		},
+		"iconSVG": {
+			"type": "string",
+			"default": "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+CjxwYXRoIGQ9Ik0zMS43NSAxMy44NDR2MGwtNC4wNjMtMi42ODh2LTkuMDYzcTAtMC4yMTktMC4xNTYtMC4zNzV0LTAuMzc1LTAuMTU2aC0yMi4zMTNxLTAuMjE5IDAtMC4zNzUgMC4xNTZ0LTAuMTU2IDAuMzc1djkuMDYzbC00LjA2MyAyLjY4OHEtMC4xMjUgMC4wOTQtMC4xODggMC4yMDN0LTAuMDYzIDAuMjM0djE2LjQzOHEwIDAuMjE5IDAuMTU2IDAuMzc1dDAuMzc1IDAuMTU2aDMwLjkzOHEwLjIxOSAwIDAuMzc1LTAuMTU2dDAuMTU2LTAuMzc1di0xNi40MzhxMC0wLjEyNS0wLjA2My0wLjIzNHQtMC4xODgtMC4yMDN2MHpNNC4zMTMgMTUuNzE5bC0xLjY1Ni0wLjkwNmgxLjY1NnYwLjkwNnpNMS4wNjMgMTUuMTg4bDEyLjE4OCA2LjQ2OS0xMi4xODggOC4wNjN2LTE0LjUzMXpNMTYgMjEuMDk0bDEzLjcxOSA5LjA5NGgtMjcuNDM4bDEzLjcxOS05LjA5NHpNMTguNzUgMjEuNjU2bDEyLjE4OC02LjQ2OXYxNC41MzF6TTI3LjY4OCAxNC44MTNoMS42NTZsLTEuNjU2IDAuOTA2di0wLjkwNnpNMjkuNzE5IDEzLjc4MWgtMi4wMzF2LTEuMzc1ek0yNi42MjUgMi42MjV2MTMuNjU2bC04Ljg3NSA0LjY4OC0xLjQ2OS0wLjk2OXEtMC4xMjUtMC4wNjMtMC4yODEtMC4wNjN0LTAuMjgxIDAuMDYzbC0xLjQ2OSAwLjk2OS04Ljg3NS00LjY4OHYtMTMuNjU2aDIxLjI1ek00LjMxMyAxMy43ODFoLTIuMDMxbDIuMDMxLTEuMzc1djEuMzc1ek0xNiAxNS41aDQuMjE5cTAuMjE5IDAgMC4zNzUtMC4xNTZ0MC4xNTYtMC4zNzUtMC4xNTYtMC4zNzUtMC4zNzUtMC4xNTZoLTQuMjE5cS0xLjUzMSAwLTIuNjA5LTEuMDc4dC0xLjA3OC0yLjYwOXYtMC4xNTZxMC0xLjUzMSAxLjA3OC0yLjYwOXQyLjYwOS0xLjA3OCAyLjYwOSAxLjA3OCAxLjA3OCAyLjYwOXYwLjM3NXEwIDAuMzQ0LTAuMjM0IDAuNTc4dC0wLjU0NyAwLjIzNHEtMC4zNDQgMC0wLjU3OC0wLjIzNHQtMC4yMzQtMC41Nzh2LTAuNzE5cTAtMC45NjktMC42NzItMS42NDF0LTEuNjA5LTAuNjcycS0wLjk2OSAwLTEuNjQxIDAuNjcydC0wLjY3MiAxLjY0MXEwIDAuOTM4IDAuNjcyIDEuNjA5dDEuNjQxIDAuNjcycTAuNDM4IDAgMC44MTMtMC4xNTZ0MC42ODgtMC40MDZxMC4yNSAwLjM3NSAwLjY3MiAwLjYyNXQwLjkyMiAwLjI1cTAuNzUgMCAxLjI5Ny0wLjU0N3QwLjU0Ny0xLjMyOHYtMC4zNzVxMC0xLjk2OS0xLjM5MS0zLjM1OXQtMy4zNTktMS4zOTEtMy4zNTkgMS4zOTEtMS4zOTEgMy4zNTl2MC4xNTZxMCAxLjk2OSAxLjM5MSAzLjM1OXQzLjM1OSAxLjM5MXYwek0xNS44MTMgMTEuNDY5cS0wLjUzMSAwLTAuODkxLTAuMzU5dC0wLjM1OS0wLjg1OXEwLTAuNTMxIDAuMzU5LTAuODkxdDAuODkxLTAuMzU5cTAuNSAwIDAuODU5IDAuMzU5dDAuMzU5IDAuODkxcTAgMC41LTAuMzU5IDAuODU5dC0wLjg1OSAwLjM1OXYweiI+PC9wYXRoPgo8L3N2Zz4K"
+		},
+		"iconSize": {
+			"type": "object",
+			"default": {
+				"Desktop": 20
+			},
+			"copyStyle": true
+		},
+		"imageHeight": {
+			"type": "object",
+			"copyStyle": true,
+			"default": {
+				"Desktop": 20
+			}
+		},
+		"imageWidth": {
+			"type": "object",
+			"copyStyle": true,
+			"default": {
+				"Desktop": 20
+			}
+		},
+		"image": {
+			"type": "object"
+		},
+		"imageAlt": {
+			"type": "string"
+		},
+		"imageFit": {
+			"type": "string"
+		},
+		"lazyLoad": {
+			"type": "boolean",
+			"copyStyle": true
+		},
+		"containerBoxShadowHover": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"useIcon": {
+			"type": "boolean",
+			"default": false,
+			"copyStyle": true
+		},
+		"iconPadding": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"iconMargin": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"iconRotate": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"iconStyleMode": {
+			"type": "string",
+			"copyStyle": true
+		},
+		"iconColor": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"iconBgColor": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"iconBackground": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"iconColorGradient": {
+			"type": "object",
+			"copyStyle": true,
+			"default": {
+				"type": "gradient",
+				"gradientColor": [
+					{
+						"active": false,
+						"color": "rgb(49, 207, 180)",
+						"id": 1,
+						"offset": "0.000"
+					},
+					{
+						"active": true,
+						"color": "rgb(126, 32, 207)",
+						"id": 2,
+						"offset": "1.000"
+					}
+				]
+			}
+		},
+		"iconBorder": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"iconBoxShadow": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"iconHoverColor": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"iconHoverBgColor": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"iconColorGradientHover": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"iconBackgroundHover": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"iconBorderHover": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"iconBoxShadowHover": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"iconFocusColor": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"iconFocusBgColor": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"iconColorGradientFocus": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"iconBackgroundFocus": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"iconBorderFocus": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"iconBoxShadowFocus": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"defaultValueType": {
+			"type": "string",
+			"default": "custom"
+		},
+		"customDefaultValue": {
+			"type": "string",
+			"default": ""
+		},
+		"loopDataType": {
+			"type": "string",
+			"default": "id"
+		},
+		"loopDataMetaKey": {
+			"type": "string",
+			"default": ""
+		},
+		"loopDataTaxonomySlug": {
+			"type": "string",
+			"default": ""
+		},
+		"queryParamKey": {
+			"type": "string",
+			"default": ""
+		},
+		"userDataType": {
+			"type": "string",
+			"default": "id"
+		},
+		"userDataMetaKey": {
+			"type": "string",
+			"default": ""
+		},
+		"fallbackDefaultValue": {
+			"type": "string",
+			"default": ""
+		},
+		"dynamicContent": {
+			"type": "object",
+			"default": {}
+		},
+		"isDynamic": {
+			"type": "boolean",
+			"default": false
+		},
+		"flexAlignSelf": {
+			"type": "object",
+			"default": {},
+			"copyStyle": true
+		},
+		"flexOrder": {
+			"type": "object",
+			"default": {},
+			"copyStyle": true
+		},
+		"flexCustomOrder": {
+			"type": "object",
+			"default": {},
+			"copyStyle": true
+		},
+		"flexSize": {
+			"type": "object",
+			"default": {},
+			"copyStyle": true
+		},
+		"flexSizeGrow": {
+			"type": "object",
+			"default": {},
+			"copyStyle": true
+		},
+		"flexSizeShrink": {
+			"type": "object",
+			"default": {},
+			"copyStyle": true
+		}
+	},
+	"supports": {
+		"className": false
+	},
+	"keywords": [
+		"input",
+		"form",
+		"email",
+		"message"
+	],
+	"example": {},
+	"style": [
+		"gutenverse-form-frontend-form-input-email-style"
+	],
+	"usesContext": [
+		"gutenverse/flexDirection"
+	]
+}
