@@ -2108,7 +2108,11 @@ abstract class Style_Interface {
 								$yposition = isset( $value['yposition'] ) ? $value['yposition'] : false;
 
 								if ( 'custom' === $position && $yposition ) {
-									return ! empty( $yposition['point'] ) ? "background-position-y: {$yposition['point']}{$yposition['unit']};" : null;
+									
+								return ! empty( $yposition['point'] )
+									? "background-position-y: {$yposition['point']}" . ( $yposition['unit'] ?? 'px' ) . ";"
+									: null;
+
 								}
 
 								return null;
