@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{document.querySelectorAll(".cookiez-preferences-trigger").forEach(e=>{e.addEventListener("click",()=>{window.cookiezBanner?.screenManager?.openPreferences?.()})})});

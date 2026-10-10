@@ -1,0 +1,89 @@
+{
+  "banner": [
+    "banner.js"
+  ],
+  "reviews": [
+    "lib-elementor-ui.js",
+    "lib-mui-material-23e2a055.js",
+    "lib-mui-material-e7d3bc8e.js",
+    "lib-mui-material-58465378.js",
+    "lib-mui-material-f92f78ac.js",
+    "lib-mui-material-f8d75dad.js",
+    "lib-mui-material-5d86a222.js",
+    "lib-mui-material-2b4151f8.js",
+    "lib-elementor-icons.js",
+    "lib-mui-system.js",
+    "lib-mui-utils.js",
+    "lib-mui-base.js",
+    "lib-react-transition-group.js",
+    "lib-mixpanel-browser.js",
+    "lib-zod-ebb86475.js",
+    "lib-zod-5c372d76.js",
+    "lib-zod-16c24206.js",
+    "lib-emotion-cache.js",
+    "4143.js",
+    "3062.js",
+    "reviews.js"
+  ],
+  "deactivation": [
+    "lib-elementor-ui.js",
+    "lib-mui-material-23e2a055.js",
+    "lib-mui-material-e7d3bc8e.js",
+    "lib-mui-material-58465378.js",
+    "lib-mui-material-f92f78ac.js",
+    "lib-mui-material-f8d75dad.js",
+    "lib-mui-material-5d86a222.js",
+    "lib-mui-material-2b4151f8.js",
+    "lib-elementor-icons.js",
+    "lib-mui-system.js",
+    "lib-mui-utils.js",
+    "lib-mui-base.js",
+    "lib-react-transition-group.js",
+    "lib-mixpanel-browser.js",
+    "lib-zod-ebb86475.js",
+    "lib-zod-5c372d76.js",
+    "lib-zod-16c24206.js",
+    "lib-emotion-cache.js",
+    "4143.js",
+    "3062.js",
+    "deactivation.js"
+  ],
+  "settings": [
+    "lib-elementor-elementor-one-assets-a0820159.js",
+    "lib-elementor-elementor-one-assets-2afd9cda.js",
+    "lib-elementor-ui.js",
+    "lib-mui-material-23e2a055.js",
+    "lib-mui-material-e7d3bc8e.js",
+    "lib-mui-material-58465378.js",
+    "lib-mui-material-f92f78ac.js",
+    "lib-mui-material-f8d75dad.js",
+    "lib-mui-material-5d86a222.js",
+    "lib-mui-material-2b4151f8.js",
+    "lib-elementor-icons.js",
+    "lib-mui-system.js",
+    "lib-mui-utils.js",
+    "lib-mui-base.js",
+    "lib-react-transition-group.js",
+    "lib-mixpanel-browser.js",
+    "lib-zod-ebb86475.js",
+    "lib-zod-5c372d76.js",
+    "lib-zod-16c24206.js",
+    "lib-emotion-cache.js",
+    "lib-popperjs-core.js",
+    "lib-immer.js",
+    "4143.js",
+    "settings.js"
+  ],
+  "gutenberg-blocks/preferences-link/block": [
+    "gutenberg-blocks/preferences-link/block.js"
+  ],
+  "gutenberg-blocks/preferences-link/frontend": [
+    "gutenberg-blocks/preferences-link/frontend.js"
+  ],
+  "elementor-widgets/cookie-consent": [
+    "elementor-widgets/cookie-consent.js"
+  ],
+  "elementor-widgets/preferences-banner": [
+    "elementor-widgets/preferences-banner.js"
+  ]
+}
